@@ -228,6 +228,7 @@ If you encounter issues while running the project:
   - Check that all dependencies are installed without errors.
   - Make sure your Supabase configuration in the `.env` file is correct and the server has been restarted.
   - Clear your browser cache and try again.
+  - While deploying through vercel i faced dependecy issues to solve it go to project settings -> Build and Deployment -> Install Command -> Override it to -> npm install --legacy-peer-deps
 
 ## 📝 Usage & Credits
 
